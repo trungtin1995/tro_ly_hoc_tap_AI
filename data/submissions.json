@@ -1,0 +1,39 @@
+[
+  {
+    "student_name": "Nguyễn Minh Triết",
+    "student_id": "7A2",
+    "plant_key": "cay_sen",
+    "plant_name": "Cây Sen",
+    "correct_count": 3,
+    "total_count": 3,
+    "percentage": 100.0,
+    "badge": "🏆 Nhà Thực Vật Học Nhí Xuất Sắc",
+    "details": [
+      {
+        "id": 1,
+        "question": "Cây sen thuộc nhóm thực vật nào dưới đây trong chương trình Sinh học THCS?",
+        "user_answer": "B. Thực vật Hạt kín",
+        "correct_answer": "B. Thực vật Hạt kín",
+        "is_correct": true,
+        "explanation": "Cây sen có hoa, quả và hạt được bao bọc bên trong quả nên thuộc nhóm Thực vật Hạt kín (lớp Hai lá mầm)."
+      },
+      {
+        "id": 2,
+        "question": "Môi trường sống tự nhiên chủ yếu của cây sen là gì?",
+        "user_answer": "B. Dưới nước / Đầm lầy",
+        "correct_answer": "B. Dưới nước / Đầm lầy",
+        "is_correct": true,
+        "explanation": "Cây sen là thực vật thủy sinh, sống dưới nước, rễ cắm vào lớp bùn ở đáy ao, hồ."
+      },
+      {
+        "id": 3,
+        "question": "Đặc điểm của cuống lá và cuống hoa cây sen giúp nó thích nghi với môi trường sống thủy sinh?",
+        "user_answer": "B. Có nhiều khoảng trống/lỗ rỗng chứa khí",
+        "correct_answer": "B. Có nhiều khoảng trống/lỗ rỗng chứa khí",
+        "is_correct": true,
+        "explanation": "Trong cuống lá và cuống hoa sen có rất nhiều đường ống dẫn khí rỗng giúp trao đổi khí và giúp hoa, lá nổi trên mặt nước."
+      }
+    ],
+    "submitted_at": "2026-08-01 10:27:44"
+  }
+]

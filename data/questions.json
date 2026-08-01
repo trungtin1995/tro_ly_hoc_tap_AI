@@ -1,0 +1,137 @@
+{
+  "cay_sen": {
+    "display_name": "Cây Sen",
+    "scientific_name": "Nelumbo nucifera",
+    "group": "Thực vật Hạt kín (2 lá mầm)",
+    "habitat": "Thủy sinh (Sống dưới nước, đầm lầy)",
+    "description": "Cây sen là thực vật thủy sinh, thuộc nhóm Thực vật Hạt kín. Rễ cắm sâu vào lớp bùn ở đáy hồ, ao; hoa sen đẹp, có hương thơm nhẹ.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Cây sen thuộc nhóm thực vật nào dưới đây trong chương trình Sinh học THCS?",
+        "options": [
+          "A. Thực vật Hạt trần",
+          "B. Thực vật Hạt kín",
+          "C. Ngành Rêu",
+          "D. Ngành Dương xỉ"
+        ],
+        "answer": "B. Thực vật Hạt kín",
+        "explanation": "Cây sen có hoa, quả và hạt được bao bọc bên trong quả nên thuộc nhóm Thực vật Hạt kín (lớp Hai lá mầm)."
+      },
+      {
+        "id": 2,
+        "question": "Môi trường sống tự nhiên chủ yếu của cây sen là gì?",
+        "options": [
+          "A. Đồi núi khô hạn",
+          "B. Dưới nước / Đầm lầy",
+          "C. Sa mạc cát",
+          "D. Tầng cao rừng mưa nhiệt đới"
+        ],
+        "answer": "B. Dưới nước / Đầm lầy",
+        "explanation": "Cây sen là thực vật thủy sinh, sống dưới nước, rễ cắm vào lớp bùn ở đáy ao, hồ."
+      },
+      {
+        "id": 3,
+        "question": "Đặc điểm của cuống lá và cuống hoa cây sen giúp nó thích nghi với môi trường sống thủy sinh?",
+        "options": [
+          "A. Thân cứng cáp không có lỗ rỗng",
+          "B. Có nhiều khoảng trống/lỗ rỗng chứa khí",
+          "C. Có gai nhọn và không dẫn nước",
+          "D. Lá phủ lớp nến hoàn toàn chống ánh sáng"
+        ],
+        "answer": "B. Có nhiều khoảng trống/lỗ rỗng chứa khí",
+        "explanation": "Trong cuống lá và cuống hoa sen có rất nhiều đường ống dẫn khí rỗng giúp trao đổi khí và giúp hoa, lá nổi trên mặt nước."
+      }
+    ]
+  },
+  "cay_tre": {
+    "display_name": "Cây Tre / Luồng",
+    "scientific_name": "Bambusoideae",
+    "group": "Thực vật Hạt kín (1 lá mầm)",
+    "habitat": "Trên cạn (Vùng nhiệt đới, đồng bằng & miền núi)",
+    "description": "Cây tre thuộc nhóm thực vật Một lá mầm, rễ chùm, thân thảo hóa gỗ có đốt rỗng bên trong.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Cây tre thuộc nhóm thực vật Một lá mầm hay Hai lá mầm?",
+        "options": [
+          "A. Thực vật Một lá mầm",
+          "B. Thực vật Hai lá mầm",
+          "C. Thực vật Hạt trần",
+          "D. Ngành Rêu"
+        ],
+        "answer": "A. Thực vật Một lá mầm",
+        "explanation": "Tre thuộc họ Hòa thảo (Poaceae), là thực vật Hạt kín thuộc lớp Một lá mầm với gân lá song song và hệ rễ chùm."
+      },
+      {
+        "id": 2,
+        "question": "Hệ rễ của cây tre có dạng gì giúp cây bám chắc và giữ đất chống sạt lở?",
+        "options": [
+          "A. Rễ cọc dài",
+          "B. Rễ chùm đan kết",
+          "C. Rễ củ tích trữ",
+          "D. Rễ thở nhô lên không khí"
+        ],
+        "answer": "B. Rễ chùm đan kết",
+        "explanation": "Tre có hệ rễ chùm phát triển đan xen chặt chẽ trong lòng đất, giúp cây đứng vững và chằng giữ đất rất tốt."
+      },
+      {
+        "id": 3,
+        "question": "Thân cây tre có đặc điểm cấu tạo nổi bật nào?",
+        "options": [
+          "A. Thân gỗ đặc tròn không chia đốt",
+          "B. Thân mọng nước",
+          "C. Thân rỗng có các mắt/đốt rãnh",
+          "D. Thân bò lan mặt đất"
+        ],
+        "answer": "C. Thân rỗng có các mắt/đốt rãnh",
+        "explanation": "Thân tre là thân thảo hóa gỗ, cấu tạo hình trụ rỗng ở giữa và phân chia thành các đốt (mắt tre)."
+      }
+    ]
+  },
+  "cay_thong": {
+    "display_name": "Cây Thông",
+    "scientific_name": "Pinus",
+    "group": "Thực vật Hạt trần",
+    "habitat": "Trên cạn (Vùng núi cao, khí hậu ôn đới/lạnh)",
+    "description": "Cây thông thuộc nhóm Thực vật Hạt trần, sinh sản bằng nón (chưa có hoa và quả thật sự), lá có dạng hình kim.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Cây thông thuộc nhóm thực vật nào dưới đây?",
+        "options": [
+          "A. Thực vật Hạt trần",
+          "B. Thực vật Hạt kín",
+          "C. Ngành Quyết (Dương xỉ)",
+          "D. Ngành Rêu"
+        ],
+        "answer": "A. Thực vật Hạt trần",
+        "explanation": "Cây thông chưa có hoa và quả thật sự; hạt nằm lộ trên các vảy của nón cái nên thuộc nhóm Thực vật Hạt trần."
+      },
+      {
+        "id": 2,
+        "question": "Cơ quan sinh sản đặc trưng của cây thông là gì?",
+        "options": [
+          "A. Hoa và Quả",
+          "B. Nón đực và Nón cái",
+          "C. Bào tử nằm ở mặt sau lá",
+          "D. Túi bào tử trên đỉnh ngọn"
+        ],
+        "answer": "B. Nón đực và Nón cái",
+        "explanation": "Thông chưa có hoa và quả; cơ quan sinh sản của thông là nón (nón đực chứa hạt phấn, nón cái chứa noãn)."
+      },
+      {
+        "id": 3,
+        "question": "Lá cây thông có hình dạng gì giúp giảm thiểu sự thoát hơi nước?",
+        "options": [
+          "A. Lá bản rộng hình tim",
+          "B. Lá hình kim nhỏ hẹp",
+          "C. Lá xẻ thùy sâu",
+          "D. Lá biến thành gai nhọn cứng"
+        ],
+        "answer": "B. Lá hình kim nhỏ hẹp",
+        "explanation": "Lá thông có dạng hình kim nhỏ, trên bề mặt có lớp cutin dày giúp hạn chế tối đa quá trình thoát hơi nước trong điều kiện khô lạnh."
+      }
+    ]
+  }
+}

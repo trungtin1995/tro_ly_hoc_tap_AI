@@ -1,0 +1,20 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Agent & AI config files (Không push lên GitHub)
+.agents/
+skills-lock.json
+plant-ai-classification.md
+single-quiz-submission.md
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# OS specific files
+.DS_Store
+Thumbs.db
