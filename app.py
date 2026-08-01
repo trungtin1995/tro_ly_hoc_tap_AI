@@ -10,7 +10,8 @@ from src.quiz_engine import (
     evaluate_quiz,
     load_submissions,
     has_student_submitted,
-    save_submission
+    save_submission,
+    reset_submissions
 )
 
 # ---------------------------------------------------------
@@ -136,8 +137,7 @@ with st.sidebar:
         [
             "🔬 Nhận Diện & Trắc Nghiệm",
             "📚 Ngân Hàng Kiến Thức",
-            "🏆 Bảng Thành Tích & Lịch Sử",
-            "ℹ️ Giới Thiệu Dự Án"
+            "🏆 Bảng Thành Tích & Lịch Sử"
         ]
     )
     
@@ -329,11 +329,20 @@ elif menu == "🏆 Bảng Thành Tích & Lịch Sử":
 
     submissions = load_submissions()
     
+    header_col1, header_col2 = st.columns([3, 1])
+    with header_col1:
+        st.markdown(f"### 📊 Tổng số lượt đã nộp: **{len(submissions)}** bài làm")
+    with header_col2:
+        with st.popover("🗑️ Reset Bảng Kết Quả"):
+            st.warning("⚠️ Bạn có chắc chắn muốn xóa toàn bộ danh sách nộp bài không?")
+            if st.button("Xác nhận xóa toàn bộ", type="primary", use_container_width=True):
+                reset_submissions()
+                st.success("✅ Đã reset bảng kết quả thành công!")
+                st.rerun()
+
     if not submissions:
         st.info("Chưa có học sinh nào nộp bài làm. Hãy là người đầu tiên hoàn thành thử thách!")
     else:
-        st.markdown(f"### 📊 Tổng số lượt đã nộp: **{len(submissions)}** bài làm")
-        
         # Display as structured data table
         table_data = []
         for s in submissions:
@@ -357,17 +366,3 @@ elif menu == "🏆 Bảng Thành Tích & Lịch Sử":
             st.info("🌟 **Nhà Khám Phá Thiên Nhiên Giỏi**\n\nĐạt từ 66% điểm số trở lên.")
         with b3:
             st.warning("🌱 **Học Viên Chăm Chỉ**\n\nHoàn thành bài test và ghi nhận kết quả.")
-
-
-# ---------------------------------------------------------
-# 7. Tab 4: Giới Thiệu
-# ---------------------------------------------------------
-else:
-    st.title("ℹ️ Giới Thiệu Dự Án")
-    st.markdown("""
-    ### Web Nhận Diện Thực Vật & Trắc Nghiệm Tương Tác Cho Học Sinh THCS
-    
-    * **Mục tiêu giáo dục:** Ứng dụng công nghệ Trí tuệ Nhân tạo (AI) giúp học sinh THCS tiếp cận môn Sinh học một cách sinh động, trực quan.
-    * **Tính năng quản lý:** Khóa bài nộp 1 lần duy nhất cho mỗi học sinh, lưu trữ lịch sử làm bài bền vững vào cơ sở dữ liệu hệ thống.
-    * **Công nghệ sử dụng:** Streamlit, Python, Random Forest / MobileNet, OpenCV, NumPy, JSON Storage.
-    """)

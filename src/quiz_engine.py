@@ -136,3 +136,14 @@ def save_submission(
         json.dump(submissions, f, ensure_ascii=False, indent=2)
         
     return new_sub
+
+
+def reset_submissions(filepath: str = SUBMISSIONS_FILE) -> bool:
+    """Xóa toàn bộ lịch sử nộp bài trong file submissions.json."""
+    try:
+        os.makedirs(os.path.dirname(filepath), exist_ok=True)
+        with open(filepath, "w", encoding="utf-8") as f:
+            json.dump([], f, ensure_ascii=False, indent=2)
+        return True
+    except Exception:
+        return False
