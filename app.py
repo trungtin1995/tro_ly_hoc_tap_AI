@@ -100,6 +100,46 @@ CUSTOM_CSS = """
         box-shadow: 0 3px 8px rgba(139, 92, 246, 0.3);
     }
 
+    /* Mobile Responsive Optimizations */
+    @media (max-width: 768px) {
+        .top-hero-banner {
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 1.3rem 1.4rem;
+            gap: 1rem;
+        }
+        .top-hero-title {
+            font-size: 1.4rem;
+        }
+        .top-hero-sub {
+            font-size: 0.95rem;
+            margin-bottom: 0.8rem;
+        }
+        .top-hero-tags {
+            flex-direction: column;
+            gap: 0.4rem;
+            font-size: 0.82rem;
+        }
+        .top-hero-pills {
+            flex-direction: row;
+            width: 100%;
+            justify-content: flex-start;
+            gap: 10px;
+        }
+        .card-box {
+            padding: 1rem 1.1rem;
+        }
+        .info-table td {
+            font-size: 0.85rem;
+        }
+        .comp-table {
+            font-size: 0.78rem;
+        }
+        .comp-table th, .comp-table td {
+            padding: 0.4rem 0.3rem;
+        }
+    }
+
     /* Result Header */
     .result-header-container {
         background: linear-gradient(135deg, #065f46 0%, #047857 100%);
@@ -372,10 +412,12 @@ if menu == "🔬 Nhận Diện AI":
 
             st.write("")
 
-            # Main Grid Layout (2 Sub-Columns)
-            res_left, res_right = st.columns([1, 1], gap="medium")
+            # ---------------------------------------------------------
+            # ROW 1: Section 1 (Left) & Section 2 (Right)
+            # ---------------------------------------------------------
+            col_r1_left, col_r1_right = st.columns([1, 1], gap="medium")
 
-            with res_left:
+            with col_r1_left:
                 # 1. THÔNG TIN MẪU
                 st.markdown(f"""
                 <div class="card-box">
@@ -395,6 +437,24 @@ if menu == "🔬 Nhận Diện AI":
                 </div>
                 """, unsafe_allow_html=True)
 
+            with col_r1_right:
+                # 2. HÌNH ÁNH TIÊU BẢN VÀ CHÚ THÍCH CẤU TRÚC
+                st.markdown("""
+                <div class="card-box" style="margin-bottom: 0.8rem;">
+                    <div class="card-title">2. HÌNH ÁNH TIÊU BẢN VÀ CHÚ THÍCH CẤU TRÚC</div>
+                </div>
+                """, unsafe_allow_html=True)
+                
+                struct_img = plant_info.get('structure_img', '')
+                if struct_img:
+                    st.image(struct_img, use_container_width=True)
+
+            # ---------------------------------------------------------
+            # ROW 2: Section 3 & 4 (Left) & Section 5 (Right)
+            # ---------------------------------------------------------
+            col_r2_left, col_r2_right = st.columns([1, 1], gap="medium")
+
+            with col_r2_left:
                 # 3. NỘI DUNG TÓM TẮT CỦA LOÀI
                 st.markdown(f"""
                 <div class="card-box">
@@ -409,75 +469,66 @@ if menu == "🔬 Nhận Diện AI":
                 st.markdown("""
                 <div class="card-box">
                     <div class="card-title">4. SO SÁNH VỚI CÁC NHÓM THỰC VẬT KHÁC</div>
-                    <table class="comp-table">
-                        <thead>
-                            <tr>
-                                <th>Đặc điểm</th>
-                                <th class="highlight-c3">C3</th>
-                                <th class="highlight-c4">C4</th>
-                                <th class="highlight-cam">CAM</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><b>Cấu tạo Kranz</b></td>
-                                <td>Không</td>
-                                <td style="color: #16a34a; font-weight: 700;">Có</td>
-                                <td>Không</td>
-                            </tr>
-                            <tr>
-                                <td><b>Mô giậu</b></td>
-                                <td>Phát triển mạnh</td>
-                                <td>Phát triển</td>
-                                <td>Không rõ ràng</td>
-                            </tr>
-                            <tr>
-                                <td><b>Mô khuyết</b></td>
-                                <td>Phát triển mạnh</td>
-                                <td>Ít phát triển</td>
-                                <td>Không có</td>
-                            </tr>
-                            <tr>
-                                <td><b>Mô dự trữ nước</b></td>
-                                <td>Không có</td>
-                                <td>Không có</td>
-                                <td style="color: #d97706; font-weight: 700;">Phát triển rất rõ</td>
-                            </tr>
-                            <tr>
-                                <td><b>Bó mạch</b></td>
-                                <td>Nhỏ</td>
-                                <td>Lớn, nhiều</td>
-                                <td>Trung bình, thưa</td>
-                            </tr>
-                            <tr>
-                                <td><b>Khí khổng</b></td>
-                                <td>Hai mặt lá</td>
-                                <td>Hai mặt lá</td>
-                                <td style="color: #d97706; font-weight: 700;">Chủ yếu mặt dưới (mở ban đêm)</td>
-                            </tr>
-                            <tr>
-                                <td><b>Thích nghi</b></td>
-                                <td>Môi trường ôn hòa, ẩm</td>
-                                <td>Nhiệt độ cao, ánh sáng mạnh</td>
-                                <td>Môi trường khô hạn, thiếu nước</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div style="overflow-x: auto;">
+                        <table class="comp-table">
+                            <thead>
+                                <tr>
+                                    <th>Đặc điểm</th>
+                                    <th class="highlight-c3">C3</th>
+                                    <th class="highlight-c4">C4</th>
+                                    <th class="highlight-cam">CAM</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><b>Cấu tạo Kranz</b></td>
+                                    <td>Không</td>
+                                    <td style="color: #16a34a; font-weight: 700;">Có</td>
+                                    <td>Không</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Mô giậu</b></td>
+                                    <td>Phát triển mạnh</td>
+                                    <td>Phát triển</td>
+                                    <td>Không rõ ràng</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Mô khuyết</b></td>
+                                    <td>Phát triển mạnh</td>
+                                    <td>Ít phát triển</td>
+                                    <td>Không có</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Mô dự trữ nước</b></td>
+                                    <td>Không có</td>
+                                    <td>Không có</td>
+                                    <td style="color: #d97706; font-weight: 700;">Phát triển rất rõ</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Bó mạch</b></td>
+                                    <td>Nhỏ</td>
+                                    <td>Lớn, nhiều</td>
+                                    <td>Trung bình, thưa</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Khí khổng</b></td>
+                                    <td>Hai mặt lá</td>
+                                    <td>Hai mặt lá</td>
+                                    <td style="color: #d97706; font-weight: 700;">Chủ yếu mặt dưới (mở ban đêm)</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Thích nghi</b></td>
+                                    <td>Môi trường ôn hòa, ẩm</td>
+                                    <td>Nhiệt độ cao, ánh sáng mạnh</td>
+                                    <td>Môi trường khô hạn, thiếu nước</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
                 """, unsafe_allow_html=True)
 
-            with res_right:
-                # 2. HÌNH ÁNH TIÊU BẢN VÀ CHÚ THÍCH CẤU TRÚC
-                st.markdown("""
-                <div class="card-box" style="margin-bottom: 0.8rem;">
-                    <div class="card-title">2. HÌNH ÁNH TIÊU BẢN VÀ CHÚ THÍCH CẤU TRÚC</div>
-                </div>
-                """, unsafe_allow_html=True)
-                
-                struct_img = plant_info.get('structure_img', '')
-                if struct_img:
-                    st.image(struct_img, use_container_width=True)
-
+            with col_r2_right:
                 # 5. KIẾN THỨC MỞ RỘNG
                 highlights_html = "".join([f"<li>{h}</li>" for h in plant_info.get("highlights", [])])
                 examples = plant_info.get("examples", [])
@@ -485,24 +536,24 @@ if menu == "🔬 Nhận Diện AI":
                 ex_items = []
                 for ex in examples:
                     ex_items.append(
-                        f'<div style="flex: 1; text-align: center; background: #f8fafc; padding: 0.5rem; border-radius: 8px; border: 1px solid #e2e8f0;">'
-                        f'<img src="{ex["img"]}" style="width: 100%; height: 80px; object-fit: cover; border-radius: 6px;">'
-                        f'<div style="font-size: 0.8rem; font-weight: 700; color: #334155; margin-top: 0.3rem;">{ex["name"]}</div>'
+                        f'<div style="flex: 1 1 45%; min-width: 110px; text-align: center; background: #f8fafc; padding: 0.5rem; border-radius: 8px; border: 1px solid #e2e8f0; box-sizing: border-box;">'
+                        f'<img src="{ex["img"]}" style="width: 100%; height: 75px; object-fit: cover; border-radius: 6px;">'
+                        f'<div style="font-size: 0.78rem; font-weight: 700; color: #334155; margin-top: 0.3rem;">{ex["name"]}</div>'
                         f'</div>'
                     )
-                ex_grid_html = f'<div style="display: flex; gap: 8px;">{"".join(ex_items)}</div>'
+                ex_grid_html = f'<div style="display: flex; flex-wrap: wrap; gap: 8px;">{"".join(ex_items)}</div>'
 
                 st.markdown(f"""
-<div class="card-box">
-<div class="card-title">5. KIẾN THỨC MỞ RỘNG</div>
-<div style="font-weight: 700; color: #065f46; margin-bottom: 0.4rem;">Đặc điểm nổi bật của {plant_info['display_name']}</div>
-<ul style="padding-left: 1.2rem; color: #334155; font-size: 0.9rem; line-height: 1.5; margin-bottom: 1rem;">
-{highlights_html}
-</ul>
-<div style="font-weight: 700; color: #065f46; margin-bottom: 0.5rem;">Ví dụ điển hình:</div>
-{ex_grid_html}
-</div>
-""", unsafe_allow_html=True)
+                <div class="card-box">
+                    <div class="card-title">5. KIẾN THỨC MỞ RỘNG</div>
+                    <div style="font-weight: 700; color: #065f46; margin-bottom: 0.4rem;">Đặc điểm nổi bật của {plant_info['display_name']}</div>
+                    <ul style="padding-left: 1.2rem; color: #334155; font-size: 0.9rem; line-height: 1.5; margin-bottom: 1rem;">
+                        {highlights_html}
+                    </ul>
+                    <div style="font-weight: 700; color: #065f46; margin-bottom: 0.5rem;">Ví dụ điển hình:</div>
+                    {ex_grid_html}
+                </div>
+                """, unsafe_allow_html=True)
 
             # ---------------------------------------------------------
             # 🎯 GOOGLE FORM CALL-TO-ACTION BANNER
