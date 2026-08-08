@@ -1,136 +1,136 @@
 {
-  "cay_sen": {
-    "display_name": "Cây Sen",
-    "scientific_name": "Nelumbo nucifera",
-    "group": "Thực vật Hạt kín (2 lá mầm)",
-    "habitat": "Thủy sinh (Sống dưới nước, đầm lầy)",
-    "description": "Cây sen là thực vật thủy sinh, thuộc nhóm Thực vật Hạt kín. Rễ cắm sâu vào lớp bùn ở đáy hồ, ao; hoa sen đẹp, có hương thơm nhẹ.",
+  "C3": {
+    "display_name": "Nhóm Thực Vật C3",
+    "scientific_name": "C3 Photosynthetic Plants",
+    "group": "Thực vật C3 (Đa số thực vật: Lúa, Khoai, Sắn, Đậu, Cây gỗ...)",
+    "habitat": "Vùng khí hậu ôn đới và nhiệt đới ẩm, điều kiện ánh sáng & nhiệt độ trung bình",
+    "description": "Thực vật C3 chiếm hơn 85% các loài thực vật trên Trái Đất. Chu trình quang hợp của chúng cố định CO2 trực tiếp qua chu trình Calvin, tạo ra hợp chất 3 carbon (3-PGA) đầu tiên.",
     "questions": [
       {
         "id": 1,
-        "question": "Cây sen thuộc nhóm thực vật nào dưới đây trong chương trình Sinh học THCS?",
+        "question": "Sản phẩm cố định CO2 đầu tiên trong quang hợp của nhóm thực vật C3 là gì?",
         "options": [
-          "A. Thực vật Hạt trần",
-          "B. Thực vật Hạt kín",
-          "C. Ngành Rêu",
-          "D. Ngành Dương xỉ"
+          "A. Hợp chất 3 carbon (APG / 3-PGA)",
+          "B. Hợp chất 4 carbon (OAA)",
+          "C. Đường Glucose",
+          "D. Axit Malic"
         ],
-        "answer": "B. Thực vật Hạt kín",
-        "explanation": "Cây sen có hoa, quả và hạt được bao bọc bên trong quả nên thuộc nhóm Thực vật Hạt kín (lớp Hai lá mầm)."
+        "answer": "A. Hợp chất 3 carbon (APG / 3-PGA)",
+        "explanation": "Trong pha tối (chu trình Calvin) của thực vật C3, chất nhận CO2 (RuBP) cố định CO2 tạo thành hợp chất 3 carbon đầu tiên là APG (Axit phosphoglyceric)."
       },
       {
         "id": 2,
-        "question": "Môi trường sống tự nhiên chủ yếu của cây sen là gì?",
+        "question": "Loài cây nào dưới đây thuộc nhóm thực vật C3?",
         "options": [
-          "A. Đồi núi khô hạn",
-          "B. Dưới nước / Đầm lầy",
-          "C. Sa mạc cát",
-          "D. Tầng cao rừng mưa nhiệt đới"
+          "A. Cây Lúa nước",
+          "B. Cây Ngô (Bắp)",
+          "C. Cây Xương rồng",
+          "D. Cây Mía"
         ],
-        "answer": "B. Dưới nước / Đầm lầy",
-        "explanation": "Cây sen là thực vật thủy sinh, sống dưới nước, rễ cắm vào lớp bùn ở đáy ao, hồ."
+        "answer": "A. Cây Lúa nước",
+        "explanation": "Lúa nước, khoai tây, sắn, đậu tương và đa số cây ăn quả là những đại diện tiêu biểu của nhóm thực vật C3."
       },
       {
         "id": 3,
-        "question": "Đặc điểm của cuống lá và cuống hoa cây sen giúp nó thích nghi với môi trường sống thủy sinh?",
+        "question": "Thực vật C3 cố định CO2 chủ yếu ở loại tế bào nào trong lá?",
         "options": [
-          "A. Thân cứng cáp không có lỗ rỗng",
-          "B. Có nhiều khoảng trống/lỗ rỗng chứa khí",
-          "C. Có gai nhọn và không dẫn nước",
-          "D. Lá phủ lớp nến hoàn toàn chống ánh sáng"
+          "A. Tế bào mô giậu (mô mô phỏng quang hợp)",
+          "B. Tế bào bao bó mạch",
+          "C. Tế bào biểu bì mặt dưới",
+          "D. Tế bào rễ"
         ],
-        "answer": "B. Có nhiều khoảng trống/lỗ rỗng chứa khí",
-        "explanation": "Trong cuống lá và cuống hoa sen có rất nhiều đường ống dẫn khí rỗng giúp trao đổi khí và giúp hoa, lá nổi trên mặt nước."
+        "answer": "A. Tế bào mô giậu (mô mô phỏng quang hợp)",
+        "explanation": "Ở thực vật C3, toàn bộ quá trình quang hợp (pha sáng và pha tối) diễn ra chủ yếu ở tế bào mô giậu của lá."
       }
     ]
   },
-  "cay_tre": {
-    "display_name": "Cây Tre / Luồng",
-    "scientific_name": "Bambusoideae",
-    "group": "Thực vật Hạt kín (1 lá mầm)",
-    "habitat": "Trên cạn (Vùng nhiệt đới, đồng bằng & miền núi)",
-    "description": "Cây tre thuộc nhóm thực vật Một lá mầm, rễ chùm, thân thảo hóa gỗ có đốt rỗng bên trong.",
+  "C4": {
+    "display_name": "Nhóm Thực Vật C4",
+    "scientific_name": "C4 Photosynthetic Plants",
+    "group": "Thực vật C4 (Vùng nhiệt đới & cận nhiệt: Ngô, Mía, Cao lương, Cỏ gấu...)",
+    "habitat": "Nhiệt đới và cận nhiệt đới, nơi có ánh sáng mạnh, nhiệt độ cao và nồng độ CO2 thấp",
+    "description": "Thực vật C4 có hiệu suất quang hợp rất cao, thích nghi tốt với môi trường nắng nóng. Quá trình cố định CO2 diễn ra qua 2 giai đoạn tại 2 loại tế bào khác nhau: Tế bào mô giậu và Tế bào bao bó mạch.",
     "questions": [
       {
         "id": 1,
-        "question": "Cây tre thuộc nhóm thực vật Một lá mầm hay Hai lá mầm?",
+        "question": "Sản phẩm cố định CO2 đầu tiên của thực vật C4 là hợp chất chứa bao nhiêu carbon?",
         "options": [
-          "A. Thực vật Một lá mầm",
-          "B. Thực vật Hai lá mầm",
-          "C. Thực vật Hạt trần",
-          "D. Ngành Rêu"
+          "A. Hợp chất 3 carbon",
+          "B. Hợp chất 4 carbon (OAA - Axit oxaloaxetic)",
+          "C. Hợp chất 5 carbon",
+          "D. Hợp chất 6 carbon"
         ],
-        "answer": "A. Thực vật Một lá mầm",
-        "explanation": "Tre thuộc họ Hòa thảo (Poaceae), là thực vật Hạt kín thuộc lớp Một lá mầm với gân lá song song và hệ rễ chùm."
+        "answer": "B. Hợp chất 4 carbon (OAA - Axit oxaloaxetic)",
+        "explanation": "Ở thực vật C4, CO2 được chất nhận PEP cố định đầu tiên tạo thành hợp chất 4 carbon (OAA), do đó nhóm cây này được gọi là thực vật C4."
       },
       {
         "id": 2,
-        "question": "Hệ rễ của cây tre có dạng gì giúp cây bám chắc và giữ đất chống sạt lở?",
+        "question": "Cơ quan quang hợp của thực vật C4 có điểm gì đặc biệt so với C3?",
         "options": [
-          "A. Rễ cọc dài",
-          "B. Rễ chùm đan kết",
-          "C. Rễ củ tích trữ",
-          "D. Rễ thở nhô lên không khí"
+          "A. Có 2 loại lục lạp ở tế bào mô giậu và tế bào bao bó mạch",
+          "B. Không có tế bào mô giậu",
+          "C. Không có diệp lục",
+          "D. Chỉ quang hợp vào ban đêm"
         ],
-        "answer": "B. Rễ chùm đan kết",
-        "explanation": "Tre có hệ rễ chùm phát triển đan xen chặt chẽ trong lòng đất, giúp cây đứng vững và chằng giữ đất rất tốt."
+        "answer": "A. Có 2 loại lục lạp ở tế bào mô giậu và tế bào bao bó mạch",
+        "explanation": "Thực vật C4 có cấu tạo lá đặc biệt với 2 tập hợp tế bào quang hợp: tế bào mô giậu (cố định CO2 sơ cấp) và tế bào bao bó mạch phát triển (thực hiện chu trình Calvin)."
       },
       {
         "id": 3,
-        "question": "Thân cây tre có đặc điểm cấu tạo nổi bật nào?",
+        "question": "Nhóm thực vật nào sau đây đều thuộc nhóm C4?",
         "options": [
-          "A. Thân gỗ đặc tròn không chia đốt",
-          "B. Thân mọng nước",
-          "C. Thân rỗng có các mắt/đốt rãnh",
-          "D. Thân bò lan mặt đất"
+          "A. Ngô, Mía, Cao lương, Cỏ lồng vực",
+          "B. Lúa, Đậu tương, Cam, Bưởi",
+          "C. Xương rồng, Thanh long, Dứa",
+          "D. Thông, Tre, Sen"
         ],
-        "answer": "C. Thân rỗng có các mắt/đốt rãnh",
-        "explanation": "Thân tre là thân thảo hóa gỗ, cấu tạo hình trụ rỗng ở giữa và phân chia thành các đốt (mắt tre)."
+        "answer": "A. Ngô, Mía, Cao lương, Cỏ lồng vực",
+        "explanation": "Ngô, mía, cao lương và các loài cỏ nhiệt đới là những đại diện điển hình cho nhóm thực vật C4 có năng suất sinh học cao."
       }
     ]
   },
-  "cay_thong": {
-    "display_name": "Cây Thông",
-    "scientific_name": "Pinus",
-    "group": "Thực vật Hạt trần",
-    "habitat": "Trên cạn (Vùng núi cao, khí hậu ôn đới/lạnh)",
-    "description": "Cây thông thuộc nhóm Thực vật Hạt trần, sinh sản bằng nón (chưa có hoa và quả thật sự), lá có dạng hình kim.",
+  "CAM": {
+    "display_name": "Nhóm Thực Vật CAM",
+    "scientific_name": "Crassulacean Acid Metabolism Plants",
+    "group": "Thực vật CAM (Vùng mọng nước, hoang mạc: Xương rồng, Thanh long, Dứa, Sen đá...)",
+    "habitat": "Hoang mạc, đồi cát khô hạn, hoặc sống bám (thực vật mọng nước)",
+    "description": "Thực vật CAM có cơ chế thích nghi đặc biệt với môi trường khô hạn: Khí khổng MỞ VÀO BAN ĐÊM để hấp thụ CO2 và ĐÓNG VÀO BAN NGÀY để hạn chế tối đa sự thoát hơi nước.",
     "questions": [
       {
         "id": 1,
-        "question": "Cây thông thuộc nhóm thực vật nào dưới đây?",
+        "question": "Thực vật CAM mở khí khổng vào thời điểm nào trong ngày để cố định CO2?",
         "options": [
-          "A. Thực vật Hạt trần",
-          "B. Thực vật Hạt kín",
-          "C. Ngành Quyết (Dương xỉ)",
-          "D. Ngành Rêu"
+          "A. Ban ngày khi có ánh sáng mặt trời",
+          "B. Ban đêm khi nhiệt độ giảm xuống",
+          "C. Giữa trưa",
+          "D. Mở liên tục cả ngày lẫn đêm"
         ],
-        "answer": "A. Thực vật Hạt trần",
-        "explanation": "Cây thông chưa có hoa và quả thật sự; hạt nằm lộ trên các vảy của nón cái nên thuộc nhóm Thực vật Hạt trần."
+        "answer": "B. Ban đêm khi nhiệt độ giảm xuống",
+        "explanation": "Để tiết kiệm nước ở vùng khô hạn, khí khổng của thực vật CAM đóng vào ban ngày và mở vào ban đêm để lấy CO2 tích trữ dưới dạng axit hữu cơ."
       },
       {
         "id": 2,
-        "question": "Cơ quan sinh sản đặc trưng của cây thông là gì?",
+        "question": "Loài cây nào dưới đây thuộc nhóm thực vật CAM?",
         "options": [
-          "A. Hoa và Quả",
-          "B. Nón đực và Nón cái",
-          "C. Bào tử nằm ở mặt sau lá",
-          "D. Túi bào tử trên đỉnh ngọn"
+          "A. Cây Xương rồng và Cây Thanh long",
+          "B. Cây Lúa nước và Cây Đậu",
+          "C. Cây Ngô và Cây Mía",
+          "D. Cây Gỗ lim và Cây Bạch đàn"
         ],
-        "answer": "B. Nón đực và Nón cái",
-        "explanation": "Thông chưa có hoa và quả; cơ quan sinh sản của thông là nón (nón đực chứa hạt phấn, nón cái chứa noãn)."
+        "answer": "A. Cây Xương rồng và Cây Thanh long",
+        "explanation": "Xương rồng, thanh long, dứa (khóm), sen đá là những thực vật mọng nước điển hình cho con đường quang hợp CAM."
       },
       {
         "id": 3,
-        "question": "Lá cây thông có hình dạng gì giúp giảm thiểu sự thoát hơi nước?",
+        "question": "Ý nghĩa sinh học quan trọng nhất của con đường quang hợp CAM là gì?",
         "options": [
-          "A. Lá bản rộng hình tim",
-          "B. Lá hình kim nhỏ hẹp",
-          "C. Lá xẻ thùy sâu",
-          "D. Lá biến thành gai nhọn cứng"
+          "A. Tăng năng suất cây trồng gấp 10 lần",
+          "B. Thích nghi hiệu quả với điều kiện khô hạn, chống mất nước",
+          "C. Tạo ra nhiều khí Oxy nhất",
+          "D. Giúp cây phát triển nhanh hơn cây C3"
         ],
-        "answer": "B. Lá hình kim nhỏ hẹp",
-        "explanation": "Lá thông có dạng hình kim nhỏ, trên bề mặt có lớp cutin dày giúp hạn chế tối đa quá trình thoát hơi nước trong điều kiện khô lạnh."
+        "answer": "B. Thích nghi hiệu quả với điều kiện khô hạn, chống mất nước",
+        "explanation": "Quang hợp CAM là đặc điểm thích nghi tiến hóa giúp thực vật tồn tại và phát triển bình thường ở những vùng hoang mạc vô cùng khắc nghiệt."
       }
     ]
   }

@@ -3,11 +3,17 @@
 venv/
 ENV/
 
-# Agent & AI config files (Không push lên GitHub)
+# Agent & AI config files
 .agents/
 skills-lock.json
 plant-ai-classification.md
 single-quiz-submission.md
+plant-ui-admin-form.md
+
+# Large dataset archives
+*.zip
+*.rar
+*.7z
 
 # Python cache & compiled files
 __pycache__/

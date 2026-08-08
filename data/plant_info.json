@@ -1,0 +1,120 @@
+{
+  "C3": {
+    "display_name": "THỰC VẬT C3",
+    "scientific_name": "C3 Photosynthetic Plants",
+    "group": "C3",
+    "badge_text": "Tiêu bản thuộc nhóm thực vật C3.",
+    "sample_info": {
+      "sample_type": "Lá (lát cắt ngang)",
+      "method": "Ảnh hiển vi",
+      "magnification": "100x",
+      "morphology_desc": "Lá thường mềm mỏng, phiến lá rộng, mô giậu và mô khuyết phân hóa rõ rệt, bề mặt cutin mỏng hơn C4 và CAM.",
+      "morphology_img": "https://mayahm.vn/wp-content/uploads/2024/02/Cay-lua-nuoc-1-e1708332373718.jpeg"
+    },
+    "structure_img": "assets/c3_stucture.png",
+    "summary": "Thực vật C3 bao gồm đa số các loài cây ở vùng ôn đới và nhiệt đới ẩm (như Lúa, Khoai, Đậu, Cam...). Cấu tạo lá đặc trưng với mô giậu và mô khuyết phát triển phân hóa rõ rệt ở hai mặt phiến lá. Bó mạch nhỏ và các tế bào bao bó mạch không phát triển thành vòng Kranz. Thực vật C3 cố định CO2 trực tiếp qua chu trình Calvin (C3) tạo ra hợp chất 3-PGA, thích nghi tối ưu trong điều kiện khí hậu ôn hòa và ánh sáng vừa phải.",
+    "highlights": [
+      "Không có cấu tạo Kranz.",
+      "Mô khuyết phát triển với nhiều khoảng gian bào.",
+      "Bao bó mạch nhỏ, không xếp vòng.",
+      "Quang hợp theo chu trình Calvin (C3).",
+      "Hiệu quả quang hợp tốt trong điều kiện ôn hòa, ánh sáng vừa phải."
+    ],
+    "examples": [
+      {
+        "name": "Lúa nước",
+        "img": "https://mayahm.vn/wp-content/uploads/2024/02/Cay-lua-nuoc-1-e1708332373718.jpeg"
+      },
+      {
+        "name": "Khoai tây",
+        "img": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=300&auto=format&fit=crop&q=60"
+      },
+      {
+        "name": "Cà Chua",
+        "img": "https://elead.com.vn/wp-content/uploads/2022/07/cay-ca-chua-5.jpg"
+      },
+      {
+        "name": "Cây Cam",
+        "img": "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=300&auto=format&fit=crop&q=60"
+      }
+    ]
+  },
+  "C4": {
+    "display_name": "THỰC VẬT C4",
+    "scientific_name": "C4 Photosynthetic Plants",
+    "group": "C4",
+    "badge_text": "Tiêu bản thuộc nhóm thực vật C4.",
+    "sample_info": {
+      "sample_type": "Lá (lát cắt ngang)",
+      "method": "Ảnh hiển vi",
+      "magnification": "100x",
+      "morphology_desc": "Lá hình dải hẹp, gân lá song song, các bó mạch nằm gần nhau và có cấu tạo giải phẫu lá kiểu Kranz đặc trưng.",
+      "morphology_img": "https://tse3.mm.bing.net/th/id/OIP.C3Qm0poRnet_3I_eiEv6YAHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    "structure_img": "assets/c4_structure.png",
+    "summary": "Thực vật C4 bao gồm các loài cây sống ở vùng nhiệt đới và cận nhiệt đới (như Ngô, Mía, Cao lương...). Giải phẫu lá có cấu tạo Kranz nổi bật với tế bào bao bó mạch phát triển rất lớn, kích thước rõ rệt và chứa nhiều lục lạp bao quanh bó mạch lớn. Quá trình cố định CO2 diễn ra qua 2 giai đoạn tại 2 loại tế bào (mô giậu và bao bó mạch), giúp cây giảm tối đa quang hô hấp, đạt năng suất sinh học vượt trội và thích nghi tối ưu với cường độ ánh sáng mạnh và nhiệt độ cao.",
+    "highlights": [
+      "Có cấu tạo Kranz.",
+      "Tế bào bao bó mạch chứa nhiều lục lạp.",
+      "Giảm quang hô hấp, tăng hiệu quả quang hợp.",
+      "Thích nghi tốt với môi trường nóng, ánh sáng mạnh."
+    ],
+    "examples": [
+      {
+        "name": "Cây Ngô (Bắp)",
+        "img": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?w=300&auto=format&fit=crop&q=60"
+      },
+      {
+        "name": "Cây Mía",
+        "img": "https://th.bing.com/th/id/R.9aeafee4fcee1976d1eca8ba90be9420?rik=HNfBTEli1q1Y0g&riu=http%3a%2f%2fblogcaycanh.vn%2ffiles%2flarge%2ff6d58b0112d85d6&ehk=tHQQn701AlCw9%2by9K4blFNNvy4QqHgjBZpIpKaRCN%2b8%3d&risl=&pid=ImgRaw&r=0"
+      },
+      {
+        "name": "Cao lương",
+        "img": "https://tse3.mm.bing.net/th/id/OIP.C3Qm0poRnet_3I_eiEv6YAHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+      },
+      {
+        "name": "Khoai mì",
+        "img": "https://tse1.mm.bing.net/th/id/OIP.bhvy_g-1YPo8pGJ76gZPAwHaEL?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+      }
+    ]
+  },
+  "CAM": {
+    "display_name": "THỰC VẬT CAM",
+    "scientific_name": "Crassulacean Acid Metabolism",
+    "group": "CAM",
+    "badge_text": "Tiêu bản thuộc nhóm thực vật CAM.",
+    "sample_info": {
+      "sample_type": "Lá (lát cắt ngang)",
+      "method": "Ảnh hiển vi",
+      "magnification": "100x",
+      "morphology_desc": "Lá dày, mọng nước, bề mặt thường có lớp cutin dày, khí khổng chủ yếu ở mặt dưới.",
+      "morphology_img": "https://images.unsplash.com/photo-1596547609652-9cf5d8d76921?w=300&auto=format&fit=crop&q=60"
+    },
+    "structure_img": "assets/cam_structure.png",
+    "summary": "Thực vật CAM bao gồm các loài cây mọng nước sống ở vùng khô hạn (như Xương rồng, Nha đam, Dứa, Thanh long...). Lá cây có lớp cutin rất dày ở cả hai mặt lá, phần lớn phiến lá được cấu tạo bởi mô dự trữ nước với các tế bào lớn chứa nhiều dịch. Khí khổng đóng vào ban ngày để giảm tối đa sự thoát hơi nước và mở vào ban đêm để hấp thụ CO2 (dạng acid), sau đó cố định vào ban ngày qua chu trình Calvin, giúp cây sinh tồn hiệu quả ở vùng hoang mạc.",
+    "highlights": [
+      "Lá dày, mọng nước, cutin dày giúp hạn chế tối đa sự thoát hơi nước.",
+      "Khí khổng đóng vào ban ngày và mở vào ban đêm để hấp thụ CO2.",
+      "Hấp thụ CO2 vào ban đêm (dạng acid) và cố định CO2 vào ban ngày qua chu trình Calvin.",
+      "Hiệu quả sử dụng nước cực kỳ cao, thích nghi sinh tồn tuyệt vời ở vùng hoang mạc."
+    ],
+    "examples": [
+      {
+        "name": "Xương rồng",
+        "img": "https://sfarm.vn/wp-content/uploads/2021/09/cay-hoa-xuong-rong-8.png"
+      },
+      {
+        "name": "Nha đam",
+        "img": "https://images.unsplash.com/photo-1596547609652-9cf5d8d76921?w=300&auto=format&fit=crop&q=60"
+      },
+      {
+        "name": "Cây Dứa (Khóm)",
+        "img": "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=300&auto=format&fit=crop&q=60"
+      },
+      {
+        "name": "Thanh long",
+        "img": "https://tse4.mm.bing.net/th/id/OIP._cYLrgU-hXebiz-OE9sowAHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+      }
+    ]
+  }
+}
