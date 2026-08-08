@@ -438,10 +438,10 @@ if menu == "🔬 Nhận Diện AI":
                 """, unsafe_allow_html=True)
 
             with col_r1_right:
-                # 2. HÌNH ÁNH TIÊU BẢN VÀ CHÚ THÍCH CẤU TRÚC
+                # 2. HÌNH ẢNH TIÊU BẢN VÀ CHÚ THÍCH CẤU TRÚC
                 st.markdown("""
                 <div class="card-box" style="margin-bottom: 0.8rem;">
-                    <div class="card-title">2. HÌNH ÁNH TIÊU BẢN VÀ CHÚ THÍCH CẤU TRÚC</div>
+                    <div class="card-title">2. HÌNH ẢNH TIÊU BẢN VÀ CHÚ THÍCH CẤU TRÚC</div>
                 </div>
                 """, unsafe_allow_html=True)
                 
