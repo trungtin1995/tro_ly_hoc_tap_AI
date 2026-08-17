@@ -18,7 +18,7 @@ from src.config_manager import (
 # 1. Page Configuration & Custom CSS Styling
 # ---------------------------------------------------------
 st.set_page_config(
-    page_title="Sinh Học THCS - AI Nhận Diện Thực Vật C3 C4 CAM",
+    page_title="Sinh Học THPT - AI Nhận Diện Thực Vật C3 C4 CAM",
     page_icon="🌿",
     layout="wide",
     initial_sidebar_state="expanded"
